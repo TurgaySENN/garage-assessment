@@ -1,11 +1,13 @@
 # garage-assessment
 Create Park:
     URL: http://localhost:8080/garage/park
+    
     RequestBody: {
                      "color": "Black",
                      "licensePlate": "54 sen 54",
                      "vehicleType": "Car"
                  }
+                 
     vehicleType = Car, Jeep, Truck
 
     response:{
@@ -17,6 +19,7 @@ Create Park:
 
 Leave Park (Delete Mapping):
     URL: http://localhost:8080/garage/"ticket id from response"
+    
          http://localhost:8080/garage/048530e0-079a-4c85-bf65-eecd15000ac1
 
 Get Status:
